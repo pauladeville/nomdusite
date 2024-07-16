@@ -1,0 +1,46 @@
+@keyframes cligner {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100%{
+  	opacity: 0;
+  }
+}
+#titre{
+	color: white;
+	font-size: 60px;
+	animation: cligner 3s infinite;
+}
+p{
+	color: white;
+	font-size: 30px;
+	font-weight: 700;
+}
+.citation{
+	color: blue;
+}
+body{
+	background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+}
+a{
+	color: #ffffff;
+	font-size: 20px;
+	background-color: #000000;
+	text-decoration: none;
+	padding: 20px;
+}
+img{
+	transition: all 500ms ease-in-out;
+}
+
+img:hover{
+	filter: contrast(200%);
+}
